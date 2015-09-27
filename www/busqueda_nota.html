@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+
+        <title>Noticias UANL</title>
+
+        <!--Librerias agregadas David Páez -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/uanlApp.css" />
+        <link rel="javascript" type="text/javascript" href="js/noticiasUsabilidad.js" />
+        <script src="js/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/noticiasUsabilidad.js"></script>
+
+        <!-- PARA DATEPICKER          -->
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="css/calendar.css" />
+
+        <script src="js/noticiasBusqueda.js"></script>
+
+    </head>
+    <body>
+        <!--Contenedor del menú-->
+        <div class="menuHeader">
+            <span class="iconMenu" id="iconBackToIndex">
+                <img src="img/iconos/arrows_back.png">
+            </span>
+            <span class="title">
+                Busqueda
+            </span>
+            
+            <span class="iconMenuder" id="iconCalendar">
+                <img src="img/iconos/calendar_icon2.png">
+            </span>
+        </div>
+        <div class="headerSpace"></div>
+
+        <!--Contenedor de noticias -->
+        <div class="contenedorNoticias">
+            
+            <!--Encabezado de rango de fechas -->
+            <div class="contenedor_por_fecha">
+                <div class="fechaLista">
+                    <img src="img/CALENDARIO.png">
+                    <span id="fechaListaSpan" >
+                        Selecciona un fecha
+                    </span>
+                </div>
+                <br>
+                
+                <div class="contenedorCalendario">
+                    <div id="datePicker" class="datePicker"></div>
+                </div>
+                <div class ="resultadoBusqueda advert_msg" ></div>
+
+                
+            </div>
+
+            <div class="noticiasResultado"></div>
+        </div>
+
+    </body>
+</html>
