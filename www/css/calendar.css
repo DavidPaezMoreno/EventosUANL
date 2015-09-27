@@ -1,0 +1,46 @@
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0px;
+}
+.ui-widget-header {
+    border: 0px solid #aaaaaa;
+    background: #003b74;
+    color: white;
+    font-weight: bold;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 0px solid #d3d3d3;
+    width: 34px;
+    background: #b2b2b2;
+    font-weight: normal;
+    color: white;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contenedorCalendario{
+	display: inline-block;
+	width: auto;
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.datePicker{
+	margin: 0 auto;
+}
